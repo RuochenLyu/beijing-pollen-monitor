@@ -26,18 +26,10 @@
 支持 Claude Code、Codex、OpenClaw、Cursor、Cline 等 40+ Agent 平台：
 
 ```bash
-npx skills add user/beijing-pollen-monitor
+npx skills add RuochenLyu/beijing-pollen-monitor
 ```
 
-> 将 `user` 替换为实际的 GitHub 用户名/组织名。安装工具会自动识别你的 Agent 并放到正确的位置。
-
-也可以指定安装到特定 Agent：
-
-```bash
-npx skills add user/beijing-pollen-monitor -a claude-code
-npx skills add user/beijing-pollen-monitor -a codex
-npx skills add user/beijing-pollen-monitor -a openclaw
-```
+安装工具会自动识别你的 Agent 并放到正确的位置。也可以指定 Agent：`npx skills add RuochenLyu/beijing-pollen-monitor -a claude-code`
 
 ### ClawHub
 
